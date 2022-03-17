@@ -1,10 +1,21 @@
-body {
-    background-color: rgb(248, 126, 167);
-}
+
 
 /* -------------------- VARIABLES */
 
 /* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(248, 126, 167);
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 /* -------------------- HEADINGS AND TYPE */
 
@@ -17,3 +28,15 @@ body {
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
+
+.content-item {
+    display: grid;
+}
+
+@media screen and (min-width: 600px) {
+
+    .content-item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

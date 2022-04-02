@@ -15,7 +15,9 @@ body {
     background-color: rgb(255, 240, 234);
     font-family: 'Karla', sans-serif;
     font-size: 18px;
-    padding-left: 3rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    line-height: 150%;
 }
 
 a{
@@ -39,12 +41,15 @@ h5 {
 }
 
 h1 {
-    font-size: 3rem;
-    padding-left: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1rem;
 }
 
 /* -------------------- HEADER */
@@ -54,6 +59,10 @@ h2 {
     display: grid;
 }
 
+.content-inner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 .text-element {
     padding-left: 8%;
     padding-right: 8%;
@@ -68,17 +77,36 @@ h2 {
 }
 
 /* -------------------- PHOTOGRAPHY */
-/*---- gallery with images and possibly text */
+/*---- gallery with images and text descriptions*/
 
 
 /* -------------------- VISUAL DESIGN */
-/*---- gallery with images and possibly text */
+/*---- gallery with images and text descriptions*/
 
 
 /*--------------------- BRANDING */
 /*---- grid layouts - 2 columns - alternating text and images */
 
+.branding-item {
+    display: grid;
+}
 
+.branding-inner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.image {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+@media screen and (min-width: 750px) {
+
+    .branding-item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
 
 /*--------------------- CONTACT */
 /*---- just links and type */

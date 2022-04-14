@@ -79,8 +79,22 @@ header .layout-wide {
 }
 
 /* -------------------- NAVIGATION */
-.main-nav
+.main-nav {
+    list-style: none;
+    padding-left: 0;
+}
 
+.main-nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    display: flex;
+    justify-content:space-between;
+}
 /* -------------------- PHOTOGRAPHY */
 /*---- gallery with images and text descriptions*/
 

@@ -53,10 +53,10 @@ h3 {
 }
 
 /* -------------------- HEADER */
-/*---- this is the first grid whith profile pic and then bio */
-header .layout-wide {
+body .layout-wide {
     display: grid
 }
+
 .content-item {
     display: grid;
 }
@@ -79,6 +79,13 @@ header .layout-wide {
 }
 
 /* -------------------- NAVIGATION */
+
+.nav-prompt {
+    height: 40;
+    width: 50;
+    border: none;
+    background-color: transparent;
+}
 .main-nav {
     list-style: none;
     padding-left: 0;
@@ -104,8 +111,17 @@ header .layout-wide {
     display: block;
 }
 /* -------------------- PHOTOGRAPHY */
-/*---- gallery with images and text descriptions*/
+/*---- image gallery*/
 
+.gallery img {
+    justify-content: space-between;
+    transition: 0.2s;
+    filter:grayscale();
+}
+.gallery a:hover img{
+    transform: scale(0.95);
+    filter: none;
+}
 
 /* -------------------- VISUAL DESIGN */
 /*---- gallery with images and text descriptions*/

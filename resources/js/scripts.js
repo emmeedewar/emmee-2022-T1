@@ -15,3 +15,5 @@ openNav()
 // this is the image gallery
 
 var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+
+var lightbox = new SimpleLightbox('.gallery2 a', { /* options */ });

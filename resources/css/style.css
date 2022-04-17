@@ -102,8 +102,6 @@ body .layout-wide {
 
 .main-nav {
     display: flex;
-    justify-content:space-between;
-
     display: none;
 }
 
@@ -125,6 +123,17 @@ body .layout-wide {
 
 /* -------------------- VISUAL DESIGN */
 /*---- gallery with images and text descriptions*/
+
+.gallery2 img {
+    justify-content: space-between;
+    transition: 0.2s;
+    filter:grayscale();
+}
+
+.gallery2 a:hover img{
+    transform: scale(0.95);
+    filter: none;
+}
 
 
 /*--------------------- BRANDING */

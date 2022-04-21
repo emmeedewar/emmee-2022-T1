@@ -3,7 +3,7 @@
 
 /* -------------------- GLOBAL DEFAULTS */
 
-* {
+{
     box-sizing: border-box;
 }
 
@@ -43,11 +43,11 @@ h5 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -55,6 +55,12 @@ h3 {
 }
 
 /* -------------------- HEADER */
+.header-heading {
+    margin-top: 50px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* -------------------- ABOUT ME */
 body .layout-wide {
     display: grid
 }
@@ -64,7 +70,7 @@ body .layout-wide {
 }
 
 .content-inner {
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-bottom: 4rem;
 }
 .text-element {
@@ -83,20 +89,21 @@ body .layout-wide {
 /* -------------------- NAVIGATION */
 
 .nav-prompt {
-    height: 40;
-    width: 50;
     border: none;
     background-color: transparent;
     position:absolute;
-    top: 53px;
-    right: 8%;
+    top: 75px;
+    right: 5%;
 }
 .main-nav {
     list-style: none;
     padding-left: 0;
-
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    background-color:rgb(255, 240, 234);
 }
-
 
 .main-nav a {
     padding-top: 10px;
@@ -114,7 +121,6 @@ body .layout-wide {
     display: block;
 }
 /* -------------------- PHOTOGRAPHY */
-/*---- image gallery*/
 
 .gallery img {
     justify-content: space-between;
@@ -172,6 +178,7 @@ body .layout-wide {
 
 
 /*--------------------- CONTACT */
+
 
 .links {
     padding-left: 8%;

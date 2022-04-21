@@ -87,6 +87,9 @@ body .layout-wide {
     width: 50;
     border: none;
     background-color: transparent;
+    position:absolute;
+    top: 53px;
+    right: 8%;
 }
 .main-nav {
     list-style: none;

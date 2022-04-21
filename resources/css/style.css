@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;800&family=PT+Serif&display=swap');
 
 /* -------------------- GLOBAL DEFAULTS */
-
-{
+*{
     box-sizing: border-box;
 }
 
@@ -60,31 +59,6 @@ h3 {
     font-size: 4rem;
     font-weight: bold;
 }
-/* -------------------- ABOUT ME */
-body .layout-wide {
-    display: grid
-}
-
-.content-item {
-    display: grid;
-}
-
-.content-inner {
-    padding-top: 6rem;
-    padding-bottom: 4rem;
-}
-.text-element {
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-@media screen and (min-width: 1000px) {
-
-    .content-item {
-        grid-template-columns: 1fr 1fr;
-    }
-
-}
 
 /* -------------------- NAVIGATION */
 
@@ -100,7 +74,7 @@ body .layout-wide {
     padding-left: 0;
     text-align: right;
     position: absolute;
-    top: 100px;
+    top: 110px;
     right: 5%;
     background-color:rgb(255, 240, 234);
 }
@@ -120,6 +94,34 @@ body .layout-wide {
 .main-nav.open {
     display: block;
 }
+
+/* -------------------- ABOUT ME */
+body .layout-wide {
+    display: grid
+}
+
+.content-item {
+    display: grid;
+}
+
+.content-inner {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.text-element {
+    padding-top: 10rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .content-item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
 /* -------------------- PHOTOGRAPHY */
 
 .gallery img {
@@ -133,7 +135,6 @@ body .layout-wide {
 }
 
 /* -------------------- VISUAL DESIGN */
-/*---- gallery with images and text descriptions*/
 
 .gallery2 img {
     justify-content: space-between;
@@ -148,7 +149,6 @@ body .layout-wide {
 
 
 /*--------------------- BRANDING */
-/*---- grid layouts - 2 columns - alternating text and images */
 
 .branding-item {
     display: grid;
@@ -175,10 +175,9 @@ body .layout-wide {
         grid-template-columns: 1fr 1fr;
     }
 
-
+}
 
 /*--------------------- CONTACT */
-
 
 .links {
     padding-left: 8%;

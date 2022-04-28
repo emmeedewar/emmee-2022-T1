@@ -90,7 +90,7 @@ h3 {
     padding-left: 0;
     text-align: right;
     position: absolute;
-    top: 110px;
+    top: 130px;
     right: 5%;
     background-color:rgb(255, 240, 234);
 }
@@ -171,11 +171,11 @@ body .layout-wide {
 }
 
 .branding-inner {
-    padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 .image {
+    padding-top: 4rem;
     padding-left: 8%;
     padding-right: 8%;
 }

@@ -29,15 +29,6 @@ a:hover {
     text-decoration: underline;
 }
 
-@media screen and (min-width: 1000px) {
-
-    .body {
-        margin-left: none;
-        margin-right: none;
-    }
-
-}
-
 /* -------------------- HEADINGS AND TYPE */
 
 h1,
@@ -121,12 +112,6 @@ h3 {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
-
-    .main-nav a {
-        display: none;
-
-}
 
 /* -------------------- ABOUT ME */
 body .layout-wide {
@@ -156,7 +141,7 @@ body .layout-wide {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
     .content-inner {
         padding-top: none;

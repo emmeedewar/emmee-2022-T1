@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;800&family=PT+Serif&display=swap');
 
 /* -------------------- GLOBAL DEFAULTS */
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,13 +20,22 @@ body {
     line-height: 1.5;
 }
 
-a{
-    color:rgb(177, 104, 120);
+a {
+    color: rgb(177, 104, 120);
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .body {
+        margin-left: none;
+        margin-right: none;
+    }
+
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -81,10 +90,11 @@ h3 {
 .nav-prompt {
     border: none;
     background-color: transparent;
-    position:absolute;
+    position: absolute;
     top: 75px;
     right: 5%;
 }
+
 .main-nav {
     list-style: none;
     padding-left: 0;
@@ -92,7 +102,7 @@ h3 {
     position: absolute;
     top: 130px;
     right: 5%;
-    background-color:rgb(255, 240, 234);
+    background-color: rgb(255, 240, 234);
 }
 
 .main-nav a {
@@ -111,6 +121,13 @@ h3 {
     display: block;
 }
 
+@media screen and (max-width: 600px) {
+
+    .main-nav a {
+        display: none;
+
+}
+
 /* -------------------- ABOUT ME */
 body .layout-wide {
     display: grid
@@ -124,16 +141,32 @@ body .layout-wide {
     padding-top: 5rem;
     padding-bottom: 4rem;
 }
+
 .text-element {
     padding-top: 10rem;
     padding-left: 8%;
     padding-right: 8%;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
 
     .content-item {
         grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .content-inner {
+        padding-top: none;
+        padding-bottom: none;
+    }
+
+    .text-element {
+        padding-top: 10%;
+        padding-left: none;
+        padding-right: none;
     }
 
 }
@@ -143,9 +176,10 @@ body .layout-wide {
 .gallery img {
     justify-content: space-between;
     transition: 0.2s;
-    filter:grayscale();
+    filter: grayscale();
 }
-.gallery a:hover img{
+
+.gallery a:hover img {
     transform: scale(0.95);
     filter: none;
 }
@@ -155,10 +189,10 @@ body .layout-wide {
 .gallery2 img {
     justify-content: space-between;
     transition: 0.2s;
-    filter:grayscale();
+    filter: grayscale();
 }
 
-.gallery2 a:hover img{
+.gallery2 a:hover img {
     transform: scale(0.95);
     filter: none;
 }
@@ -182,7 +216,7 @@ body .layout-wide {
 
 .tmc {
     padding-left: 8%;
-    padding-right: 8%;  
+    padding-right: 8%;
 }
 
 @media screen and (min-width: 750px) {

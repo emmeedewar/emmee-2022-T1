@@ -112,7 +112,24 @@ h3 {
     display: block;
 }
 
+@media screen and (max-width: 1000px) {
 
+    .nav-prompt {
+        position: none;
+        top: 260px;
+        left: 20px;
+    }
+
+    .main-nav {
+        text-align: center;
+        position: none;
+        top: 300px;
+        left: 20px;
+        background-color: none;
+    
+    }
+
+}
 /* -------------------- ABOUT ME */
 body .layout-wide {
     display: grid
@@ -219,6 +236,17 @@ body .layout-wide {
     padding-right: 8%;
     padding-top: 50%;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .links {
+        padding-top: 10%;
+        padding-left: none;
+        padding-right: none;
+    }
+
+}
+
 
 /*--------------------- FOOTER */
 footer {

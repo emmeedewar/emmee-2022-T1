@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -115,16 +115,17 @@ h3 {
 @media screen and (max-width: 1000px) {
 
     .nav-prompt {
-        position: none;
-        top: 260px;
-        left: 20px;
+        position: relative;
+        top: 10px;
+        left: 2px;
+        
     }
 
     .main-nav {
         text-align: center;
-        position: none;
-        top: 300px;
-        left: 20px;
+        position: relative;
+        top: 10px;
+        left: 2px;
         background-color: none;
     
     }
@@ -145,7 +146,7 @@ body .layout-wide {
 }
 
 .text-element {
-    padding-top: 10rem;
+    padding-top: 12rem;
     padding-left: 8%;
     padding-right: 8%;
 }
